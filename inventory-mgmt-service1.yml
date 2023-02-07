@@ -9,7 +9,7 @@ spring:
     show-sql: true
 stock:
   transportType: air123
-  slaDays: 1245
+  slaDays: 999
 eureka:
   client: 
     regster-with-eureka: true
