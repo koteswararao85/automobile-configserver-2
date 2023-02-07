@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/inventorydb
+    username: root
+    password: root
+  jpa:
+    generate-ddl: false
+    show-sql: true
+stock:
+  transportType: air123
+  slaDays: 1245
+eureka:
+  client: 
+    regster-with-eureka: true
+    fetch-registory: false
+    service-url: 
+      default-zone: http://localhost:8761/eureka    
